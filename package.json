@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo dev --parallel"
+    "local": "turbo local --parallel",
+    "start": "turbo local --parallel"
   },
   "packageManager": "pnpm@10.11.1",
   "devDependencies": {
